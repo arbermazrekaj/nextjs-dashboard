@@ -22,3 +22,4 @@ export async function GET() {
   }
   return Response.json({ error: "An unexpected error occurred" }, { status: 500 });
 }
+}
